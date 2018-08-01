@@ -27,23 +27,25 @@ Then install dependencies by running 
 
 You need to add your credentials to be able to access your personal data(balances, trades, own orders). This varies by exchange.
 
-#### binance
+##### Binance
 
-create an API username and key here and add it to the exe/bin.js file 
+create an API username and key on binance and add it to the exe/bin.js file 
 
 
-
-#### Forkdelta (etherdelta)
+##### Forkdelta (etherdelta)
 
 add your ethereum address to the file exe/ede.js
 
 
-#### IDEX 
+##### IDEX 
 
 add your ethereum address to the file exe/idex.js
 
-*Warning:* You API keys are as powerfull as your passwords please be carefull not to share it or the files containing it anywhere or with anyone.
+**Warning:** You API keys are as powerfull as your passwords please be carefull not to share it or the files containing it anywhere or with anyone.
 
+##### adding tokens
+
+the main list of coins can be added by editing the main variable in server.js and add to the watchlist by editing the ticker variable. Some exchanges require more specific instructions which can be found on individual exchange scripts in the exe folder.
 
 ## Running the app
 
@@ -53,4 +55,4 @@ Then go to http://localhost:7777 from your browser
 
 ## Future Development 
 
-I strongly encourage users to contribute to this project. Adding more exchanges is the first order of business. If you have specific requests or wish to enguage me professionally, contact me ....
+I strongly encourage users to contribute to this project. Adding more exchanges is the first order of business. If you have specific requests or wish to enguage me professionally it's praneethmendu on gmail. 
