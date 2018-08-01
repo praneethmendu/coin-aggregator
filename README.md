@@ -12,18 +12,20 @@ You can set the minimum arbirage opportunity you would like to recieve alerts fo
 ![alert](md_img/arb.jpg)
 
 The **global orderbook** lets you see orders from multiple exchanges. The rightmost column shows the quantity of your own orders, if any.You can see an overview of your balances and trades from different exchanges in this secton. The  blue '0' values indicate no data recieved. Orders against BTC will be converted to their current equivalent against ETH.
-![orderbook](md_img/ord.jpg)
+![orderbook](md_img/ord.jpg | width=7)
 
 The last sections are **ticker**, where you can see a brief overview of selected coins derived from coinmarketcap API, and **trades** where the most recent trades as they happen.
 
 
 ## Getting stared 
 
-To run this app you need Node.js and NPM installed. If you are new to this you can find instructions here.
-
-Once that is taken care of clone this reposetory and cd into it
-
-Then install dependencies by running 
+To run this app you need Node.js, you can get it [here](https://nodejs.org/en/download/ "node's Homepage").
+Once that is taken care of clone this reposetory, cd into it, and install dependencies with npm
+```
+git clone https://github.com/praneethmendu/coin-aggregator.git
+cd coin-aggregator
+npm i
+```
 
 You need to add your credentials to be able to access your personal data(balances, trades, own orders). This varies by exchange.
 
@@ -49,8 +51,10 @@ the main list of coins can be added by editing the main variable in server.js an
 
 ## Running the app
 
-You can start the app with
-
+When in the app folder, start the app with
+```
+node server
+```
 Then go to http://localhost:7777 from your browser
 
 ## Future Development 
