@@ -8,7 +8,7 @@ Most important functions include price alerts, watching for arbitrage opportunit
 
 In the **alert section**, you can input the acceptable price range for each coin. When the price is higher or lower than set values you will receive audio alerts. The rightmost column lists the exchanges from which data has been received. Clicking on any of the leftmost buttons opens the respective coin's global orderbook.
 
-You can set the minimum arbirage opportunity you would like to receive alerts for in the **arbirage section**. Coin names turning blue here indicate that the data is more than 5 seconds old and hasn't been replaced with newer data.
+You can set the minimum arbitrage opportunity you would like to receive alerts for in the **arbitrage section**. Coin names turning blue here indicate that the data is more than 5 seconds old and hasn't been replaced with newer data.
 
 ![alert](md_img/arb.jpg)
 
