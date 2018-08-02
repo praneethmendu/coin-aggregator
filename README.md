@@ -7,10 +7,10 @@ Most important functions include price alerts, watching for arbitrage opportunit
 Currently added exchanges:
 
 <p float="left">
-  <img src="md_img/1.png" width="25%" />
-  <img src="md_img/2.png" width="25%" /> 
-  <img src="md_img/3.png" width="25%" />
-  <img src="md_img/4.png" width="25%" />
+  <img src="md_img/1.png" width="22%" />
+  <img src="md_img/2.png" width="23%" /> 
+  <img src="md_img/3.png" width="23%" />
+  <img src="md_img/4.png" width="22%" />
 </p>
 
 ## Key features
