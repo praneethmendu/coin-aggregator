@@ -1,8 +1,34 @@
 # coin aggregator
 
-This node.js app aggregates information, both public and account specific, from multiple exchanges and synchronizes them to be displayed on a locally generated webpage.
+This node.js app provides a framework to aggregates information, both public and account specific, from multiple exchanges and synchronizes and displays.
 
 Most important functions include price alerts, watching for arbitrage opportunities and tracking current balances and recent trades.
+<style>
+  .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<div class="row">
+  <div class="column">
+    <img src="https://forkdelta.github.io/images/title.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://tokensale.ab-chain.com/img/livecoin-logo.png" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
 
 ## Key features
 
