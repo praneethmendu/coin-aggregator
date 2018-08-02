@@ -6,7 +6,12 @@ Most important functions include price alerts, watching for arbitrage opportunit
 
 Currently added exchanges:
 
-![binance](md_img/1.png) | ![forkdelta](md_img/2.png) | ![livecoin](md_img/3.png) |![idex](md_img/4.png) |
+<p float="left">
+  <img src="md_img/1.png" width="25%" />
+  <img src="md_img/2.png" width="25%" /> 
+  <img src="md_img/3.png" width="25%" />
+  <img src="md_img/4.png" width="25%" />
+</p>
 
 ## Key features
 
