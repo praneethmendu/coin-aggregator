@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>arbMan</title>
+  <link href="public/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <a href="https://coinmarketcap.com/currencies/ethereum">ETH</a>&nbsp<b id="eth"></b>&nbsp
+  <a href="https://coinmarketcap.com/currencies/bitcoin">BTC</a>&nbsp<b id="btc"></b><br>
+
+
+  <h4 id="rateETH">rateETH</h4>
+  <h4 id="rateXRL">rateXRL</h4>
+  <h3>balance</h3>
+  <table id="bal"></table>
+
+  <h3>alert</h3>
+  <table id="lambo"></table>
+  <h3>arb</h3>
+  <table id="arb"></table>
+
+  <br><br>
+
+  <div id="asks"></div>
+  <div id="bids"></div>
+  <br><br>
+
+  <!-- watchlist --><br><br>
+  <h3>ticker</h3>
+  <div id="watchlist"></div>
+  <br>
+
+  <h3>trades</h3>
+  <table id="trades"></table>
+  <div id="comp0">
+    <h3 id="title0"></h3>
+    <b id="exc0"></b>
+    <canvas id="map0"></canvas>
+    <button id="button0">show</button>
+    <div id="asks0"></div>
+    <div id="bids0"></div>
+    <p id="p0"></p>
+  </div>
+
+
+  <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="public/jquery.js"></script>
+  <script src="public/Chart.js"></script>
+  <script src="public/entry.js"></script>
+</body>
+
+</html>

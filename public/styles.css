@@ -1,0 +1,76 @@
+/* STANDARD TAG REDEFINITIONS */
+
+BODY {
+  color: White;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  background-color: black;
+  margin: auto;
+  text-align: center;
+  padding: 0;
+}
+
+p {
+  font-size: 20pt;
+  margin-bottom: 7px;
+  margin-top: 0;
+}
+
+a {
+  color: #76defc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66ffec;
+}
+
+form {
+  margin: 0;
+}
+
+table {
+  margin: 0 auto;
+}
+
+tr,
+td,
+th {
+  padding-right: 50px;
+}
+
+#arb tr,
+#arb td,
+#arb th {
+  padding-right: 50px;
+  padding-bottom: 8px;
+}
+
+.ibox {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#asks0,
+#asks1,
+#asks2,
+#asks {
+  color: red;
+}
+
+#bids0,
+#bids1,
+#bids2,
+#bids {
+  color: green;
+}
