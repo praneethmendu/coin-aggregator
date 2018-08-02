@@ -8,12 +8,12 @@ Most important functions include price alerts, watching for arbitrage opportunit
 
 In the **alert section**, you can input the acceptable price range for each coin. When the price is higher or lower than set values you will receive audio alerts. The rightmost column lists the exchanges from which data has been received. Clicking on any of the leftmost buttons opens the respective coin's global orderbook.
 
-You can set the minimum arbirage opportunity you would like to recieve alerts for in the **arbirage section**. Coin names turning blue here indicate that the data is more than 5 seconds old and hasn't been replaced with newer data.
+You can set the minimum arbirage opportunity you would like to receive alerts for in the **arbirage section**. Coin names turning blue here indicate that the data is more than 5 seconds old and hasn't been replaced with newer data.
 
 ![alert](md_img/arb.jpg)
 
 
-The **global orderbook** lets you see orders from multiple exchanges. The rightmost column shows the quantity of your own orders, if any. Orders against BTC will be converted to their current equivalent against ETH.
+The **global orderbook** lets you see orders from multiple exchanges. The rightmost column shows the quantity of your own orders(if any). Orders against BTC will be converted to their current equivalent against ETH.
 
 ![orderbook](md_img/ord.jpg)
 
@@ -23,10 +23,10 @@ You can see synced balances from all connected exchanges in **balances**. Blue 0
 
 Then there is **ticker**, where you can see a brief overview of selected coins courtesy coinmarketcap API, and **trades** where the most recent trades are posted as they happen.
 
-## Getting stared 
+## Getting started 
 
 To run this app you need Node.js, you can get it [here](https://nodejs.org/en/download/ "node's Homepage").
-Once that is taken care of clone this reposetory, cd into it, and install dependencies with npm
+Once that is taken care of clone this repository, cd into it, and install dependencies with npm
 ```
 git clone https://github.com/praneethmendu/coin-aggregator.git
 cd coin-aggregator
@@ -49,7 +49,7 @@ add your ethereum address to the file exe/ede.js
 
 add your ethereum address to the file exe/idex.js
 
-**Warning:** You API keys are as powerfull as your passwords please be carefull not to share it or the files containing it anywhere or with anyone.
+**Warning:** You API keys are as powerful as your passwords please be careful not to share it or the files containing it anywhere or with anyone.
 
 ##### adding tokens
 
@@ -65,4 +65,4 @@ Then go to http://localhost:7777 from your browser
 
 ## Future Development 
 
-I strongly encourage users to contribute to this project. Adding more exchanges is the first order of business. If you have specific requests or wish to enguage me professionally it's praneethmendu on gmail. 
+I strongly encourage users to contribute to this project. Adding more exchanges is the first order of business. If you have specific requests or wish to engage me professionally it's praneethmendu on gmail. 
